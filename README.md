@@ -9,7 +9,7 @@ Assignment for 2nd round of Impact Run
 4. Test the apis using postman tool
 
 APIs:
-1. http://localhost:3000/ : To uplaod the csv file to 'uploads' folder and insert the data into the      students table.
+1. http://localhost:3000/ : To uplaod the csv file to 'uploads' folder with columns id, name, marks1, marks2, marks3 and age (sample is there in uploads folder) and insert the data into the students table.
     Validation used : 
         User must choose a CSV file or else he/ she will get an message saying "Choose a CSV file!!!"
 
