@@ -1,9 +1,7 @@
 var express = require('express');
 var router = express.Router();
-
+var resultController = require("../controller/result_status")
 /* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
+router.get('/', resultController.getResultStatus);
 
 module.exports = router;
